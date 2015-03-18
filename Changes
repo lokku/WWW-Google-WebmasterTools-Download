@@ -1,5 +1,8 @@
 Revision history for perl module WWW::Google::WebmasterTools::Download
 
+0.003 2015-03-18
+    * Add Minimum Perl Version check
+
 0.002 2015-02-20
     * Change up some dependency version requirements
 
