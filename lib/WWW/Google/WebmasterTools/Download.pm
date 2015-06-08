@@ -79,7 +79,7 @@ sub _login {
         Email => $self->email,
         Passwd => $self->password,
         service => 'sitemaps',
-        source => 'WWW::Google::WebmasterTools::Download',
+        source => 'Google-WMTdownloadscript-0.1',
     );
 
     my $response = $self->ua->post($ROOT_URIs{'LOGIN'}, \%post_data);
