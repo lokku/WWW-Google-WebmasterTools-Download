@@ -1,5 +1,8 @@
 Revision history for perl module WWW::Google::WebmasterTools::Download
 
+0.004 2015-06-08
+    * Avoid being blocked by Google by using a valid "source" string
+
 0.003 2015-03-18
     * Add Minimum Perl Version check
 
